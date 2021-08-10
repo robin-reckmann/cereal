@@ -553,6 +553,20 @@ struct CarParams {
     programmedFuelInjection @14;
     electricBrakeBooster @15;
     shiftByWire @16;
+
+    # Nissan only
+    brake @17;
+    vsp @18;
+    hvac @19;
+    bcm @20;
+    tcu @21;
+    multiAv @22;
+    ipdmEr @23;
+    parkingBrake @24;
+    motorControl @25;
+    charger @26;
+    hvBattery @27;
+    avm @28;
   }
 
   enum FingerprintSource {
